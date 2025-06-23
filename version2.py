@@ -132,7 +132,7 @@ if proj_file:
             file_name="ProjectAssignments.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
-
+ 
         # 2. Download updated employee sheet
         updated_employee_io = BytesIO()
         updated_employee_df.to_excel(updated_employee_io, index=False)
